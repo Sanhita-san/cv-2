@@ -1,0 +1,222 @@
+/*tag elements*/
+body
+{
+	background-color: powderblue;
+	margin: 0px;
+	text-align: center;
+}
+
+h1
+{
+	margin-top: 30px;
+	font-family: 'Sacramento', cursive;
+	margin-bottom: 0; 
+	font-size: 5.6rem;
+	color: #66BFBF;
+}
+
+h3{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+	color: #11999E;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h2{
+	font-family: 'Poppins', sans-serif;	
+	font-size: 2.5rem;
+	color: #66BFBF;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+p{
+	size: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 550;
+	font-family: system-ui;
+}
+
+a{
+	color: #11999E;
+	text-decoration: none;
+	margin: 20px;
+}
+
+hr{
+	width: 5%;
+	border-style: none;
+	border-top: 10px dotted #EAF6F6;
+}
+
+/*class elements*/
+
+/*div containers*/
+
+.top-container
+{
+	padding-top: 140px;
+	background-color: white;
+	position: relative;
+	margin: 0 50px;
+}
+
+/*Cloud start*/
+
+.top-cloud{
+	position: absolute;
+	top: 110px;
+	right: 300px;
+}
+
+.bottom-cloud{
+	position: absolute;
+	bottom: 300px;
+	left:300px;
+}
+
+/*end of cloud*/
+
+
+.middle-container
+{
+	background-color: white;
+	padding: 40px 0;
+	margin: 0 50px;
+}
+/*inside middle-container*/
+
+/*inside profile container*/
+
+.profile{
+	margin: 100px 0;
+}
+
+.profile img{
+	margin-bottom: 40px; 
+	border-radius: 50%;
+	border: 10px solid powderblue;
+}
+
+/*end of inside profile container*/
+
+/*inside skills container*/
+
+.skills{
+	margin: 100px 0;
+}
+
+.skill-row{
+	/*display: inline-block;*/
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.comp{
+	width: 22%;
+	/*padding: 6%;*/
+	float: left;
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+.chilli-img{
+	float: right;
+	margin-left: 30px;
+	width: 25%;
+}
+
+.fashion{
+	background-color: #4a3753;
+	width:20%;
+	padding: 2.5%;
+	height:auto;
+	float: left;
+	margin-right: 30px;
+	border-radius: 50%;	
+}
+
+.skills p{
+	background-color: black;
+	display: initial;
+}
+
+.skills p:hover{
+	background-color: white;
+}
+
+
+/*end of inside skills container*/
+
+/*inside contact-me container*/
+
+.contact-me{
+	margin: 100px 0;
+}
+
+.contact-me p{
+	line-height: 2;
+	font-size: 20px;
+	margin: 40px auto;
+	width: 40%;
+}
+
+.btn {
+   -webkit-border-radius: 28px;
+   -moz-border-radius: 28px;
+   border-radius: 28px;
+   color: #FFFFFF;
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   font-weight: 500;
+   padding: 10px 28px;
+   background-color: #66BFBF;
+   border: solid #99C624 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover{
+	background-color: black;
+}
+
+/*inside contact-me container*/
+
+/*end of inside middle-container*/
+
+.bottom-container
+{
+	background-color: powderblue;
+	padding:80px 0;
+	margin: 0 50px;
+	font-weight: bold;
+	font-size: 1.35rem;
+	font-family: system-ui;
+}
+
+/*inside bottom-container*/
+a:hover{
+	color:white;
+}
+
+.footer{
+	margin-top: 40px;
+	color: white;
+	font-size: 1rem;
+}
+
+/*end of inside bottom-container*/
+
+/*end of div containers*/
+
+
+
+
+
